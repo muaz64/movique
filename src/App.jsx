@@ -1,13 +1,12 @@
 import './App.css'
+import Header from './Header'
 
 function App() {
   
 
   return (
     <>
-        <h1 class="text-3xl font-bold text-center">
-    Hello world!
-  </h1>
+      <Header />
     </>
   )
 }
