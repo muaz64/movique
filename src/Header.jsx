@@ -2,7 +2,7 @@ import { useState, useContext } from "react";
 
 import Moon from "./assets/icons/moon.svg";
 import Sun from "./assets/icons/sun.svg";
-import Logo from "./assets/logo.svg";
+import Logo from "./assets/Movique.svg";
 import Ring from "./assets/ring.svg";
 import ShoppingCart from "./assets/shopping-cart.svg";
 
