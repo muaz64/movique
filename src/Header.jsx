@@ -30,8 +30,8 @@ export default function Header() {
                     <CartDetails
                         onClose={() => setShowCart(false)} />}
             <nav className="container flex items-center justify-between space-x-10 py-6">
-                <a href="index.html">
-                    <img src={Logo} width="139" height="26" alt="logo" />
+                <a href="index.html" >
+                    <img src={Logo} width="80" height="80" alt="logo" className="rounded-full m-2"/>
                 </a>
 
                 <ul className="flex items-center space-x-5">
