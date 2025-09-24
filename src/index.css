@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
-.bg{
-    
-			--bg-primary: #00D991;
-			
-  }
-  
+@theme {
+  --color-primary: #00D991;
+  --container-padding: 1.25rem;
+}
+
+/* Optional dark mode styling */
 .dark {
-    @apply bg-[#171923] text-white
+  @apply bg-[#171923] text-white;
 }
